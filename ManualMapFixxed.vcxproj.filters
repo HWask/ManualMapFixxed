@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\asmjit">
+      <UniqueIdentifier>{58f0bed2-0ecd-4d8f-b16c-24a7ee16986b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\asmjit\base">
+      <UniqueIdentifier>{c52cddc5-0eae-4342-aad9-065ef12cb5bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\asmjit\x86">
+      <UniqueIdentifier>{1a223aac-6b35-4d9f-8146-21b863204d97}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Process.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="PE.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="MMap.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\apibegin.h">
+      <Filter>Headerdateien\asmjit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\apiend.h">
+      <Filter>Headerdateien\asmjit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\asmjit.h">
+      <Filter>Headerdateien\asmjit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\base.h">
+      <Filter>Headerdateien\asmjit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\build.h">
+      <Filter>Headerdateien\asmjit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\config.h">
+      <Filter>Headerdateien\asmjit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\host.h">
+      <Filter>Headerdateien\asmjit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\x86.h">
+      <Filter>Headerdateien\asmjit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\x86\x86assembler.h">
+      <Filter>Headerdateien\asmjit\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\x86\x86compiler.h">
+      <Filter>Headerdateien\asmjit\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\x86\x86context_p.h">
+      <Filter>Headerdateien\asmjit\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\x86\x86cpuinfo.h">
+      <Filter>Headerdateien\asmjit\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\x86\x86inst.h">
+      <Filter>Headerdateien\asmjit\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\x86\x86operand.h">
+      <Filter>Headerdateien\asmjit\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\x86\x86scheduler_p.h">
+      <Filter>Headerdateien\asmjit\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\base\assembler.h">
+      <Filter>Headerdateien\asmjit\base</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\base\codegen.h">
+      <Filter>Headerdateien\asmjit\base</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\base\compiler.h">
+      <Filter>Headerdateien\asmjit\base</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\base\constpool.h">
+      <Filter>Headerdateien\asmjit\base</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\base\containers.h">
+      <Filter>Headerdateien\asmjit\base</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\base\context_p.h">
+      <Filter>Headerdateien\asmjit\base</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\base\cpuinfo.h">
+      <Filter>Headerdateien\asmjit\base</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\base\cputicks.h">
+      <Filter>Headerdateien\asmjit\base</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\base\error.h">
+      <Filter>Headerdateien\asmjit\base</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\base\globals.h">
+      <Filter>Headerdateien\asmjit\base</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\base\intutil.h">
+      <Filter>Headerdateien\asmjit\base</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\base\lock.h">
+      <Filter>Headerdateien\asmjit\base</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\base\logger.h">
+      <Filter>Headerdateien\asmjit\base</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\base\operand.h">
+      <Filter>Headerdateien\asmjit\base</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\base\runtime.h">
+      <Filter>Headerdateien\asmjit\base</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\base\string.h">
+      <Filter>Headerdateien\asmjit\base</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\base\vectypes.h">
+      <Filter>Headerdateien\asmjit\base</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\base\vmem.h">
+      <Filter>Headerdateien\asmjit\base</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\base\zone.h">
+      <Filter>Headerdateien\asmjit\base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\x86\x86assembler.cpp">
+      <Filter>Headerdateien\asmjit\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\x86\x86compiler.cpp">
+      <Filter>Headerdateien\asmjit\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\x86\x86context.cpp">
+      <Filter>Headerdateien\asmjit\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\x86\x86cpuinfo.cpp">
+      <Filter>Headerdateien\asmjit\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\x86\x86inst.cpp">
+      <Filter>Headerdateien\asmjit\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\x86\x86operand.cpp">
+      <Filter>Headerdateien\asmjit\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\x86\x86operand_regs.cpp">
+      <Filter>Headerdateien\asmjit\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\x86\x86scheduler.cpp">
+      <Filter>Headerdateien\asmjit\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\base\assembler.cpp">
+      <Filter>Headerdateien\asmjit\base</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\base\codegen.cpp">
+      <Filter>Headerdateien\asmjit\base</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\base\compiler.cpp">
+      <Filter>Headerdateien\asmjit\base</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\base\constpool.cpp">
+      <Filter>Headerdateien\asmjit\base</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\base\containers.cpp">
+      <Filter>Headerdateien\asmjit\base</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\base\context.cpp">
+      <Filter>Headerdateien\asmjit\base</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\base\cpuinfo.cpp">
+      <Filter>Headerdateien\asmjit\base</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\base\cputicks.cpp">
+      <Filter>Headerdateien\asmjit\base</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\base\error.cpp">
+      <Filter>Headerdateien\asmjit\base</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\base\globals.cpp">
+      <Filter>Headerdateien\asmjit\base</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\base\intutil.cpp">
+      <Filter>Headerdateien\asmjit\base</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\base\logger.cpp">
+      <Filter>Headerdateien\asmjit\base</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\base\operand.cpp">
+      <Filter>Headerdateien\asmjit\base</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\base\runtime.cpp">
+      <Filter>Headerdateien\asmjit\base</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\base\string.cpp">
+      <Filter>Headerdateien\asmjit\base</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\base\vmem.cpp">
+      <Filter>Headerdateien\asmjit\base</Filter>
+    </ClCompile>
+    <ClCompile Include="asmjit\base\zone.cpp">
+      <Filter>Headerdateien\asmjit\base</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
